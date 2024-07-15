@@ -1,7 +1,10 @@
 #include "mbed.h"
 #include <cstdio>
 /*
-this program sets up an interrupt on a button connected to pin PC_13. When the button is pressed, the interrupt service routine btnFall sets a flag (int_trig). The main loop continuously checks this flag, and when it detects the button press (flag set to 1), it prints “btnFall \r\n” and resets the flag.
+this program sets up an interrupt on a button connected to pin PC_13.
+ When the button is pressed, the interrupt service routine btnFall sets a flag (int_trig).
+  The main loop continuously checks this flag,
+   and when it detects the button press (flag set to 1), it prints “btnFall \r\n” and resets the flag.
 
 
 */
